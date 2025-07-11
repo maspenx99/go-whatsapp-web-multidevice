@@ -1,4 +1,4 @@
-FROM golang:1.22-alpine
+FROM golang:1.24-bookworm
 RUN apk add --no-cache git
 
 WORKDIR /app
